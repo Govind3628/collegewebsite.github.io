@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: cursive;
+}
+
+/* Style the header */
+header {
+  background-color: rgb(219, 108, 108);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+  height: 600px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(219, 108, 108);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>ABOUT US</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+     
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>About Institute</h1>
+    <p>Bundelkhand Institute of Engineering & Technology, Jhansi has proved to be the most preferred destination 
+      for aspiring technologists across the country. The institute consistently attracts the finest faculty 
+      and the best of students for its Bachelor’s and Master’s programmes. B.I.E.T has a rich tradition 
+      of pursuing excellence and has continually re-invented itself in terms of academic programmes and 
+      research infrastructure. Students are exposed to challenging research based academics and a host of
+       sport, cultural and organizational activities on its vibrant campus. The presence of world class
+        facilities, vigorous institute-industry collaboration programmes, interdisciplinary research
+         collaborations and industrial training opportunities help students of B.I.E.T to excel and be
+          ahead in the competitive professional environment. In the last twenty years, B.I.E.T has produced 
+          many illustrious professionals, whose contributions at national and international levels have been
+           significant.</p>
+           <h1>
+             Institute Vision
+           </h1>
+           <p1>
+            To transform the institute as a premier centre for imparting technical education to produce quality 
+            professionals to meet the global challenges and societal needs.
+           </p1>
+           <h1>
+            Institute Mission
+          </h1>
+          <p1>
+           1. To create an academic ambience leading to quality professionals.<br>
+           2. To design and implement the curriculum to meet the needs of the industry and society.<br>
+           3. To collaborate with premier academic institutions, research organizations and industry to enhance skills and employability.
+          </p1>
+          <h1>
+            Infrastructure
+          </h1>
+          <p>1.College has sound infrastructure with lush green campus of 240 acres (.97km2) which is next only to IIT Kanpur in Uttar Pradesh. The Institute proudly announces to have highest land area among all the colleges of GBTU Lucknow & MTU Noida<br><br>
+            2.Total built-up area of the Institute building 28700 sq. m.<br><br>
+           3. A central library which spreads over 1100 sq. m. area, has a collection of approx 4 lac books. Central Library is a member of DELNET and various bodies like ASME, ASCE, IEEE etc.<br><br>
+            4.Beside central library each department has its own Departmental Library for easy access of students.<br><br>
+           5.The institute has 6 hostels (4 for Boys and 2 for girls) with accommodation capacity of 1600 persons. Each hostel is provided 24*7 Internet facility with 100 MBPS connection.<br><br> 6.Each hostel is equipped with indoor game room, TV Room, Water cooler with RO system and Generator.<br>
+           7.B.I.E.T. has a fully fledged 24 hours medical dispensary with all the necessary arrangements to meet any emergency situation. One full time medical officer is appointed by the college.<br><br>
+            8.Institute has a central canteen beside this canteens are provided to each hostel to cater the need of students.<br><br>
+           9.The Institute has a fully A.C. Guest House for the emergency accommodation purpose.<br><br>
+           10.Institute has two bank in campus one branch of Punjab National Bank and other of Central bank of India.<br><br>
+            11.Two ATM one of each PNB and CBI are available for 24*7 money transaction.
+            A branch of Post Office is also provided in the campus for mailing purpose.<br><br>
+          
+            12.The Institute has a Central play ground, Several Race tracks, Basketball court, Football ground, Tennis court and facilities for indoor games like Chess, Carrom, and Table Tennis etc.<br><br>
+            13.The institute has an Auditorium Hall with accommodation of over 1500 persons at a time.<br></p>
+          
+    
+  </article>
+</section>
+
+</body>
+</html>
+
